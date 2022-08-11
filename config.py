@@ -18,10 +18,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 
 PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/74fb72c6e6b04b6fc5eef.jpg")
-START_IMG = getenv("START_IMG")
+START_IMG = getenv("START_IMG","https://te.legra.ph/file/ec2b6bf8d17962430bc7e.jpg")
 
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MagicalDuniya")
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", " https://t.me/YouKnowHNY")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TeamTrickyYash")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", " https://t.me/TrickyYash")
 
 STRING_SESSION = getenv("STRING_SESSION", None)
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1574818111").split()))
